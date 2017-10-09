@@ -1,0 +1,92 @@
+{
+	"id": "af7b8fec-c9e5-2698-2d23-2d320dc28916",
+	"name": "CommerceExamples",
+	"description": "",
+	"order": [
+		"322a1da0-a348-2e8c-1fb0-335741604421"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1507560462521,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "322a1da0-a348-2e8c-1fb0-335741604421",
+			"headers": "Content-Type: application/json\nShopName: {{ShopName}}\nShopperId: {{ShopperId}}\nLanguage: {{Language}}\nCurrency: {{Currency}}\nEnvironment: {{Environment}}\nGeoLocation: {{GeoLocation}}\nCustomerId: {{CustomerId}}\nRoles: {{Roles}}\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ShopName",
+					"value": "{{ShopName}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ShopperId",
+					"value": "{{ShopperId}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Language",
+					"value": "{{Language}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Currency",
+					"value": "{{Currency}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Environment",
+					"value": "{{Environment}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "GeoLocation",
+					"value": "{{GeoLocation}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "CustomerId",
+					"value": "{{CustomerId}}",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Roles",
+					"value": "{{Roles}}",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{ServiceHost}}/{{ShopsApi}}/SetCartVIPStatus",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1507002385732,
+			"name": "Set cart VIP status",
+			"description": "",
+			"collectionId": "af7b8fec-c9e5-2698-2d23-2d320dc28916",
+			"responses": [],
+			"rawModeData": "{\n    \"cartId\":\"testcart0001\",\n    \"applyVIPStatus\":\"true\"\n}"
+		}
+	]
+}
