@@ -45,6 +45,10 @@
     <Reference Include="Sitecore.Commerce">
       <HintPath>..\Lib\Sitecore\Sitecore.Commerce.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Commerce.Connect.CommerceServer, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Sitecore.Commerce.Connect.CommerceServer.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Commerce.Engine.Connect">
       <HintPath>..\Lib\Sitecore\Sitecore.Commerce.Engine.Connect.dll</HintPath>
     </Reference>
@@ -65,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Pipelines\Cart\SetCustomFieldsByCommand.cs" />
+    <Compile Include="Pipelines\Orders\TranslateOrderEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
