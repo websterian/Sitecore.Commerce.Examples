@@ -28,7 +28,7 @@ namespace Sitecore.Commerce.Examples.Pipelines.Orders
     /// <summary>
     /// The translate order entity.
     /// </summary>
-    public class TranslateOrderEntity : TranslateODataEntityToEntity<TranslateOrderToEntityRequest, TranslateOrderToEntityResult, Order, CommerceOrder>
+    public class TranslateOrderEntity : Sitecore.Commerce.Engine.Connect.Pipelines.Orders.TranslateOrderToEntity
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="TranslateOrderEntity"/> class.

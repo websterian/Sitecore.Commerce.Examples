@@ -20,6 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,8 +43,9 @@
     <Reference Include="Microsoft.Spatial">
       <HintPath>..\Lib\Microsoft.Spatial.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Commerce">
-      <HintPath>..\Lib\Sitecore\Sitecore.Commerce.dll</HintPath>
+    <Reference Include="Sitecore.Commerce, Version=10.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\inetpub\sc821u3\Website\bin\Sitecore.Commerce.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Commerce.Connect.CommerceServer, Version=8.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
